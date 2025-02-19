@@ -36,7 +36,8 @@ AgriConnect 360 optimizes work by automating payments, monitoring product condit
 AgriConnect 360 can prevent up to 40-70% of inefficiencies, fraud, and logistical issues in the agricultural supply chain.
 
 ## Architecture
-![System Architecture](architecture_diagram/diagram.png)
+
+![Screenshot 2025-02-19 093136](https://github.com/user-attachments/assets/dd4caa14-86e0-456a-ba95-f81307044aa2)
 
 ## Website Template
 <p align="center">
