@@ -1,7 +1,7 @@
 <h1 align="center">AgriConnect-360-Bridging-Farms-and-Markets</h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0b1c5b4f-75c6-4da0-a44e-0d851dd035af" alt="AgriConnect 360 Image">
+  <img src="https://github.com/user-attachments/assets/0b1c5b4f-75c6-4da0-a44e-0d851dd035af" alt="AgriConnect 360 Image" width="250">
 </p>
 
 **AgriConnect 360** Workflow streamlines the entire agricultural supply chain. Farmers list their products with pricing and quality details, while IoT devices monitor product conditions during transport, providing real-time updates. Buyers browse and place orders, with smart contracts automating payment and delivery agreements. Transporters manage logistics, optimizing routes and ensuring timely delivery. Secure payment is processed through the platform, and delivery is confirmed. All transaction data is recorded on the blockchain, ensuring transparency and traceability for all parties involved.
