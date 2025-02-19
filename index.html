@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriConnect 360</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#farmers">Farmers</a></li>
+        <li><a href="#buyers">Buyers</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="logo">
+    <img src="WhatsApp Image 2025-02-18 at 13.35.31_c02aafd7.jpg" alt="AgriConnect 360">
+  </div>
+  <!-- Main Content -->
+  <main>
+    <!-- Homepage Section -->
+    <section id="home" class="home-section">
+      <h1>Welcome to AgriConnect 360</h1>
+      <p>Connecting Farmers, Transporters, and Buyers for a better fairer marketplace.</p>
+      <a href="#register" class="cta-button">Join Now</a>
+    </section>
+
+<!-- Farmers Section (Product Listings) -->
+<section id="farmers" class="farmers-section">
+  <h2>Farmers' Products</h2>
+
+  <!-- Filter Dropdown -->
+  <div class="filter-container">
+    <label for="product-filter">Filter by Category:</label>
+    <select id="product-filter">
+      <option value="all">All</option>
+      <option value="fruits">Fruits</option>
+      <option value="grains">Grains</option>
+      <option value="vegetables">Vegetables</option>
+    </select>
+  </div>
+
+  <!-- Product Grid -->
+  <div class="product-grid">
+    <div class="product-card" data-category="vegetables">
+      <div class="category-label">Vegetables</div>
+      <img src="images.jpg" alt="Fresh Tomatoes">
+      <h3>Fresh Tomatoes</h3>
+      <p><strong>Shop:</strong> Fresh Farms</p>
+      <p><strong>Location:</strong> Coimbatore</p>
+      <p><strong>Price:</strong> ₹50/kg</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="vegetables">
+      <div class="category-label">Vegetables</div>
+      <img src="download.jpg" alt="Organic Potatoes">
+      <h3>Organic Potatoes</h3>
+      <p><strong>Shop:</strong> Green Fields</p>
+      <p><strong>Location:</strong> Madurai</p>
+      <p><strong>Price:</strong> ₹40/kg</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="fruits">
+      <div class="category-label">Fruits</div>
+      <img src="mango.jpg" alt="Alphonso Mango">
+      <h3>Alphonso Mango</h3>
+      <p><strong>Shop:</strong> Mango Delight</p>
+      <p><strong>Location:</strong> Salem</p>
+      <p><strong>Price:</strong> ₹120/kg</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="vegetables">
+      <div class="category-label">Vegetables</div>
+      <img src="spinach.jpg" alt="Fresh Spinach">
+      <h3>Fresh Spinach</h3>
+      <p><strong>Shop:</strong> Green Gardens</p>
+      <p><strong>Location:</strong> trichy</p>
+      <p><strong>Price:</strong> ₹30/kg</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="fruits">
+      <div class="category-label">Fruits</div>
+      <img src="apple.jpg" alt="Red Apples">
+      <h3>Red Apples</h3>
+      <p><strong>Shop:</strong> Apple Orchard</p>
+      <p><strong>Location:</strong> Nilgiris</p>
+      <p><strong>Price:</strong> ₹150/kg</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="fruits">
+      <div class="category-label">Fruits</div>
+      <img src="banana.jpg" alt="Bananas">
+      <h3>Bananas</h3>
+      <p><strong>Shop:</strong> Banana Grove</p>
+      <p><strong>Location:</strong> Dindigul</p>
+      <p><strong>Price:</strong> ₹40/dozen</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="grains">
+      <div class="category-label">Grains</div>
+      <img src="rice.jpg" alt="Organic Rice">
+      <h3>Organic Rice</h3>
+      <p><strong>Shop:</strong> Pure Grains</p>
+      <p><strong>Location:</strong> Kanchipuram</p>
+      <p><strong>Price:</strong> ₹70/kg</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card" data-category="grains">
+      <div class="category-label">Grains</div>
+      <img src="oats.jpg" alt="Oats">
+      <h3>Oats</h3>
+      <p><strong>Shop:</strong> Pure Grains</p>
+      <p><strong>Location:</strong> Vellore/p>
+      <p><strong>Price:</strong> ₹199/kg</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Buyers Section -->
+    <section id="buyers" class="buyers-section">
+      <h2>Buyers</h2>
+      <p>Explore the best products from trusted farmers across India.</p>
+      <a href="#login" class="cta-button">Login to Shop</a>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="login-section">
+      <h2>Login</h2>
+      <form>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+        <button class="google-login">Continue with Google</button>
+      </form>
+    </section>
+
+    <!-- Register Section -->
+    <section id="register" class="register-section">
+      <h2>Register</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <select name="role" required>
+          <option value="farmer">Farmer</option>
+          <option value="buyer">Buyer</option>
+          <option value="transporter">Transporter</option>
+        </select>
+        <input type="text" placeholder="Address" required>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 AgriConnect 360. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const filterSelect = document.getElementById("product-filter");
+      const productCards = document.querySelectorAll(".product-card");
+  
+      filterSelect.addEventListener("change", function () {
+        const selectedCategory = filterSelect.value.toLowerCase();
+  
+        productCards.forEach(card => {
+          const productCategory = card.getAttribute("data-category").toLowerCase();
+  
+          if (selectedCategory === "all" || selectedCategory === productCategory) {
+            card.style.display = "block"; // Show matching products
+          } else {
+            card.style.display = "none"; // Hide non-matching products
+          }
+        });
+      });
+    });
+  </script>
+  
+</body>
+</html>
